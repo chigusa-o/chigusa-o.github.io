@@ -46,21 +46,29 @@ a {
 }
 
 .signup {
-  background-color: #239b76;
+  background-color: #eef867;
+  margin-right: 10px;
+  color: #555555;
+}
+
+.login {
+  background-color: #eef867;
+  color: #555555;
 }
 
 .facebook {
   background-color: #3b5998;
   margin-right: 10px;
+  color: white;
 }
 
 .twitter {
   background-color: #55acee;
+  color: white;
 }
 
 .btn {
   padding: 8px 24px;
-  color: white;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
@@ -105,6 +113,10 @@ header {
   display: block;
   float: left;
   transition: all 0.5s;
+}
+
+.top-login {
+  background-color: #fc8383;
 }
 
 .header-right a:hover {
