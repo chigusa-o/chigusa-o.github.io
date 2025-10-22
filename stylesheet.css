@@ -7,6 +7,11 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
+/* 見出し (h1) を本文のフォントから分離して別のフォントを適用 */
+h1 {
+  font-family: "Yu Mincho", serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -263,6 +268,7 @@ footer {
 
   .top-wrapper h1 {
     font-size: 24px;
+    font-family: "Yu Mincho";
   }
 
   .top-wrapper p {
